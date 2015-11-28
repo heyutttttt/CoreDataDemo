@@ -134,6 +134,7 @@ static NSString *const baseURLString = @"https://dove-rest-dev.hnair.net:9600/do
     }
     
     if (self.index < 0) {
+        
         self.index = (int)self.slideImages.count - 1;
     }
     
